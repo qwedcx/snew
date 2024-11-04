@@ -190,3 +190,7 @@ footer p {
 .spaced-text::first-line {
     letter-spacing: 3px;
 }
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+}
