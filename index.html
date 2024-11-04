@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клод Шеннон</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/ico" sizes="32x32" href="icons/favicon.ico">
+    <link rel="icon" type="image/ico" sizes="16x16" href="icons/favicon.ico">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+
+    <meta property="og:title" content="Сайт о Клоде Шенноне">
+    <meta property="og:site_name" content="Клод Шеннон">
+    <meta property="og:url" content="https://qwedcx.github.io/PI132/">
+    <meta property="og:description" content="Информация о жизни и достижениях Клода Шеннона">
+    <meta property="og:image" content="https://qwedcx.github.io/PI132/images/shannon.jpg">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.svg" alt="Логотип сайта" width="50" a>
+        </div>
+        <h1>Клод Шеннон</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Введение</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="about">
+            <h2>Введение</h2>
+            <div class="image-container"> 
+                <a href="images/shannon.jpg" download="Claude_Shannon.jpg">
+                    <img src="images/shannon.jpg" alt="Фото Клода Шеннона" width="200" class="shannon-image">
+                </a>
+            </div>
+            <p class="spaced-text">Клод Шеннон — американский математик и инженер, известный как основоположник теории информации. Его работы оказали огромное влияние на развитие информатики и телекоммуникаций, а также на философию науки и инженерное дело.</p>
+            <p>Он создал фундаментальную концепцию передачи информации, которая используется в современных цифровых системах.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Мои Проекты</h2>
+            <ul class="projects-list">
+                <li><a href="#">Биография</a></li>
+                <li><a href="#">Основные достижения</a></li>
+                <li><a href="#">Интересные факты</a></li>
+                <li><a href="#">Список терминов</a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Свяжитесь со мной</h2>
+            <form id="contact-form">
+
+                <label for="name">Имя</label>
+                <input type="text" id="name" placeholder="Введите ваше имя" required>
+                
+
+                <label for="email">Электронная почта</label>
+                <input type="email" id="email" placeholder="Введите ваш e-mail" required>
+                
+                <label for="phone">Телефон</label>
+                <input type="tel" id="phone" placeholder="Введите ваш телефон" required>
+
+                <label for="message">Сообщение</label>
+                <textarea name="message" id="message" rows="5" placeholder="Введите сообщение" required></textarea>
+               
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Давтян Овик</p>
+
+        <div class="icon-container">
+            <a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B5%D0%BD%D0%BD%D0%BE%D0%BD,_%D0%9A%D0%BB%D0%BE%D0%B4"><img src="icons/wikipedia.svg" alt="Иконка wikipedia"></a>
+            <a href="tel:+77777777777"><img src="icons/telephone.svg" alt="Иконка телефона"></a>
+            <a href="mailto:aboba@gmail.com"><img src="icons/envelope.svg" alt="Иконка почты"></a>
+            <a href="https://github.com/qwedcx"><img src="icons/github.svg" alt="Иконка гитхаба"></a>
+        </div>
+    </footer>
+</body>
+</html>
